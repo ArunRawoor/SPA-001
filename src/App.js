@@ -323,7 +323,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LoginPage />} />
+        <Route path="/SPA-001" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/forgot-password" element={<ForgotPasswordPage />} />
         <Route path="/reset-password" element={<ResetPasswordPage />} />
