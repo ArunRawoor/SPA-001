@@ -1,0 +1,340 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color:wheat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ .Course{
+  text-align: center;
+ }
+footer {
+    padding: 20px 0;  background: #252525; */
+  
+  
+  /* Copy Right Footer */
+  /* .footer-copyright { background: #222; padding: 5px 0;}
+  .footer-copyright .logo {    display: inherit;}
+  .footer-copyright nav {    float: right;    margin-top: 5px;}
+  .footer-copyright nav ul {  list-style: none; margin: 0;  padding: 0;}
+  .footer-copyright nav ul li { border-left: 1px solid #505050; display: inline-block;  line-height: 12px;  margin: 0;  padding: 0 8px;}
+  .footer-copyright nav ul li a{  color: #969696;}
+  .footer-copyright nav ul li:first-child { border: medium none;  padding-left: 0;}
+  .footer-copyright p { color: #969696; margin: 2px 0 0;} */
+  
+  /* Footer Top */
+  /* .footer-top{  background: #252525;  padding-bottom: 30px; margin-bottom: 30px;  border-bottom: 3px solid #222;} */
+  
+  /* Footer transparent */
+   /* .footer-top, footer.transparent .main-footer{  background: transparent;}
+  .footer-copyright{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;} */
+  
+  /* Footer light */
+  /* .footerlight .footer-top{ background: #f9f9f9;}
+  .footer.light .main-footer{  background: #f9f9f9;}
+  .footer.light .footer-copyright{ background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;}  */
+  
+  /* Footer 4 */
+  /* .footer- .logo {    display: inline-block;} */
+  
+  /*==================== 
+    Widgets 
+  ====================== */
+  /* .widget{  padding: 20px;  margin-bottom: 40px;}
+  .widget.widget-last{  margin-bottom: 0px;}
+  .widget.no-box{ padding: 0; background-color: transparent;  margin-bottom: 40px;
+    box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
+  .widget.subscribe p{  margin-bottom: 18px;}
+  .widget li a{ color: #ff8d1e;}
+  .widget li a:hover{ color: #4b92dc;}
+  .widget-title {margin-bottom: 20px;}
+  .widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
+  .widget-title span::after {background: inherit;content: "";height: inherit;    position: absolute;top: -4px;width: 50%;}
+  .widget-title.text-center span,.widget-title.text-center span::after {margin-left: auto;margin-right:auto;left: 0;right: 0;}
+  .widget .badge{ float: right; background: #7f7f7f;}
+  
+  .typo-light h1, 
+  .typo-light h2, 
+  .typo-light h3, 
+  .typo-light h4, 
+  .typo-light h5, 
+  .typo-light h6,
+  .typo-light p,
+  .typo-light div,
+  .typo-light span,
+  .typo-light small{  color: #fff;}
+ 
+  .ul.social-footer2 { margin: 0;padding: 0; width: auto;}
+  .ul.social-footer2 li {display: inline-block;padding: 0;}
+  .ul.social-footer2 li a:hover {background-color:#ff8d1e;}
+  .ul.social-footer2 li a {display: block; height:30px;width: 30px;text-align: center;}
+  .btn{background-color: #ff8d1e; color:#fff;}
+  .btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 250ms ease-in-out 0s;
+  -moz-transition: all 250ms ease-in-out 0s;
+  -ms-transition: all 250ms ease-in-out 0s;
+  -o-transition: all 250ms ease-in-out 0s;
+  transition: all 250ms ease-in-out 0s;
+  
+  }
+} */
+/* .registration-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.B {
+  border-color: #ff0000;
+}
+
+.B {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.A {
+
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 100px;
+}
+.A:hover {
+  background-color: yellowgreen;
+ 
+}
+
+.F{
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.F:hover{
+  background-color: yellowgreen;
+}
+h3{
+  text-align: center;
+}
+
+    .background-radial-gradient {
+      background-color: hsl(218, 41%, 15%);
+      background-image: radial-gradient(650px circle at 0% 0%,
+          hsl(218, 41%, 35%) 15%,
+          hsl(218, 41%, 30%) 35%,
+          hsl(218, 41%, 20%) 75%,
+          hsl(218, 41%, 19%) 80%,
+          transparent 100%),
+        radial-gradient(1250px circle at 100% 100%,
+          hsl(218, 41%, 45%) 15%,
+          hsl(218, 41%, 30%) 35%,
+          hsl(218, 41%, 20%) 75%,
+          hsl(218, 41%, 19%) 80%,
+          transparent 100%);
+    }
+
+    #radius-shape-1 {
+      height: 220px;
+      width: 220px;
+      top: -60px;
+      left: -130px;
+      background: radial-gradient(#44006b, #ad1fff);
+      overflow: hidden;
+    }
+
+    #radius-shape-2 {
+      border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+      bottom: -60px;
+      right: -110px;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(#44006b, #ad1fff);
+      overflow: hidden;
+    }
+
+    .bg-glass {
+      background-color: hsla(0, 0%, 100%, 0.9) !important;
+      backdrop-filter: saturate(200%) blur(25px);
+    }
+
+    
+
+    #calendar {
+      width: 300px;
+      height: 300px;
+      border: 1px solid #ccc;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: 30px repeat(5, 1fr);
+    }
+    
+    #calendar .header {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 10px;
+    }
+    
+    #calendar .weekday {
+      text-align: center;
+      font-weight: bold;
+      padding: 5px;
+      background-color: #f2f2f2;
+    }
+    
+    #calendar .day {
+      text-align: center;
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+    
+    #calendar .event {
+      background-color: #ffcccc;
+      border-radius: 3px;
+      padding: 2px;
+    } */
+
+
+
+
+
+/*this  is the code for the log in and reg page css is there */
+
+
+
+
+
+
+
+
+
+/* src/index.css */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: dancing script, cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.container {
+  font-family: dancing script, cursive;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+  color: #555;
+}
+
+input, button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 10px 0;
+}
+
