@@ -305,25 +305,25 @@ export default App;
 
 
 // src/App.js
+// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import LoginPage from './Components/LoginPage';
 import RegisterPage from './Components/RegisterPage';
 import ForgotPasswordPage from './Components/ForgotPasswordPage';
 import ResetPasswordPage from './Components/ResetPasswordPage';
-import './App.css';
 import ProfilePage from './Components/ProfilePage';
 
 const PrivateRoute = ({ element: Component }) => {
   const isAuthenticated = localStorage.getItem('loggedInUser');
-  return isAuthenticated ? <Component /> : <Navigate to="/" />;
+  return isAuthenticated ? <Component /> : <Navigate to="/SPA-001" />;
 };
 
 function App() {
   return (
-    <Router>
+    <Router basename="/SPA-001">
       <Routes>
-        <Route path="/SPA-001" element={<LoginPage />} />
+        <Route path="/" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/forgot-password" element={<ForgotPasswordPage />} />
         <Route path="/reset-password" element={<ResetPasswordPage />} />
@@ -334,3 +334,4 @@ function App() {
 }
 
 export default App;
+
