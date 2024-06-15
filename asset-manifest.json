@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ArunRawoor/SPA-001.git/static/css/main.4be6cea3.css",
+    "main.js": "/ArunRawoor/SPA-001.git/static/js/main.1890a542.js",
+    "index.html": "/ArunRawoor/SPA-001.git/index.html",
+    "main.4be6cea3.css.map": "/ArunRawoor/SPA-001.git/static/css/main.4be6cea3.css.map",
+    "main.1890a542.js.map": "/ArunRawoor/SPA-001.git/static/js/main.1890a542.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4be6cea3.css",
+    "static/js/main.1890a542.js"
+  ]
+}
